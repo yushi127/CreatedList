@@ -1,0 +1,44 @@
+@media screen and (max-width: 1000px) {
+
+}
+
+
+
+
+
+@media  screen and (max-width: 670px){
+  .top h2{
+    font-size: 23px;
+  }
+  .day1,.main1{
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+  /* .main1 a{
+    margin-bottom: 200px;
+  } */
+  .bottom{
+    font-size: 14px;
+    text-align: left;
+  }
+  .bottom1,.bottom-contents1,.bottom-contents2{
+    float: none;
+  }
+  .bottom1right{
+    float: none;
+  }
+.bottom-contents2{
+  width:100%;
+ }
+ .bottom-contents1{
+   width: 100%;
+ }
+ .bottom2 #a{
+   padding-top: 50px;
+ }
+.bottom1right{
+  margin-left: 150px;
+  font-size: 16px;
+}
+}

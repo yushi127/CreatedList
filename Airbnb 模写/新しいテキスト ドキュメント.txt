@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link rel="stylesheet" href="./responsive.css" type="text/css">
+    <!-- ロゴを読み込む場合 -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+   <header>
+    <div class="header-left">
+      <!-- <p class="logo"><i class="fab fa-airbnb"></i></p> -->
+      <a href="#" class="envelope-big"><i class="far fa-envelope"></i></a>
+      <p href="#" class="envelope"><i class="far fa-envelope"></i></p>
+      <p class="indicate"><i class="fas fa-angle-down"></i></p>
+      <div class="serch">
+        <p><i class="fas fa-search"></i></p>
+        <input type="search" placeholder="探す"></input>
+      </div>
+    </div>
+    <div class="header-right">
+     <ul>
+       <!-- ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
+    <div class="header-right-start">
+       <li><a href="#">ホストをはじめる</a></li>
+         <div class="start">
+          <div class="start-top">
+             <p>宿泊先</p>
+             <div class="start1">
+                <a href='#'>お部屋を掲載</a><br><span>大阪でホスティング、月最大\88,391の収入に。</span>
+             </div>
+             <div class="start2">
+                <a href="#">お家のホスティングについて</a>
+             </div>
+          </div>
+          <div class="start-bottom">
+             <p>体験</p>
+             <div class="start3">
+                <a href="#">体験ホストをする</a><br><span>好きなことを世界とシェアして、収入を得よう</span>
+             </div>
+          </div>
+     </div>
+    </div>
+     <li><a class='header-help'href="#">ヘルプ</a></li>
+       <li><a class='header-touroku'href="#">登録する</a></li>
+       <li><a class="header-roguin" href="#">ログイン</a></li>
+     </ul>
+   </div>
+   <div class="clear"></div>
+  </header>
+   <div class="top">
+    <div class="max">
+     <div class="top-contents">
+      <h1>旅を贈ろう。</h1>
+      <p>Airbnbギフトカードで、世界をぐんと身近に</p>
+      <a href="#">ギフトカードを登録</a>
+     </div>
+    </div>
+   </div>
+    <div class="senter">
+     <div class="max">
+      <h1>いつも完璧な贈りもの</h1>
+       <div class="senter-contents">
+        <div class="senter-object">
+          <p class="senter-logo"><i class="far fa-envelope"></i></p>
+          <h2>簡単に使える</h2>
+          <p class="senter-text">ギフトカードはメールで届きます。Airbnbアカウントへのギフト登録も超かんたん</p>
+        </div>
+        <div class="senter-object">
+          <p class="senter-logo"><i class="fas fa-stopwatch"></i></p>
+          <h2>有効期限なし</h2>
+          <p class="senter-text">Airbnbギフトカードは無期限。だから友達も時間をかけて旅をプランできます。</p>
+        </div>
+        <div class="senter-object">
+          <p class="senter-logo"><i class="fas fa-globe"></i></p>
+          <h2>忘れられない旅</h2>
+          <p class="senter-text">お家は100万件以上あるので、ずっと住みたいと憧れていた街の暮らしも叶います。</p>
+        </div>
+      </div>
+    </div>
+   </div>
+
+    <div class="under">
+     <div class="max">
+      <img src="./img/Present Icon.png">
+      <h1>ギフトカードをもらったら…</h1>
+      <h2>ログインあるいは利用登録してギフトを登録するだけです。あとは使い途をゆっくり考えましょう。</h2>
+      <div class="under-btn">
+       <a href="#" id="a-1";>ギフトカードを登録する</a>
+      </div>
+      <a href="#" id="a-2">Airbnbギフトカードの仕組みは？</a>
+     </div>
+    </div>
+
+  <div class="bottom">
+   <div class="max">
+     <div class="bottom-wrapper">
+      <div class="bottom-contents">
+      <ul>
+        <p>Airbnb</p>
+         <li><a>採用情報</a></li>
+         <li><a>ニュース</a></li>
+         <li><a>ポリシー</a></li>
+         <li><a>ヘルプ</a></li>
+         <li><a>ダイバーシティ＆ビロンギング</a></li>
+         <li><a>アクセシビリティ対応新着</a></li>
+         <li><a>企業情報</a></li>
+       </ul>
+     </div>
+     <div class="bottom-contents">
+       <ul>
+         <p>スタッフのおすすめ</p>
+        <li><a>信頼 安全</a></li>
+        <li><a>お友達紹介クーポン</a></li>
+        <li><a>Airbnb Citizen</a></li>
+        <li><a>出張</a></li>
+        <li><a>ガイドブック</a></li>
+        <li><a>Airbnbmag</a></li>
+       </ul>
+     </div>
+     <div class="bottom-contents">
+       <ul>
+         <p>ホスティング</p>
+         <li><a>ホストになる理由</a></li>
+         <li><a>おもてなしの心</a></li>
+         <li><a>ホストの責任</a></li>
+         <li><a>コミュニティセンター</a></li>
+         <li><a>体験を掲載新着</a></li>
+         <li><a href="#">オープンホーム</a></li>
+       </ul>
+     </div>
+     <div class="bottom-contents">
+       <ul>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <li><a>利用規約</a></li>
+        <li><a>プライバシー</a></li>
+        <li><a>サイトマップ</a></li>
+      </ul>
+     </div>
+   </div>
+  </div>
+ </div>
+  <footer>
+   <div class="max">
+     <div class="footer-wrapper">
+      <div class="footer-left">
+       <!-- <p><i class="fab fa-airbnb"></i></p> -->
+       <p><i class="far fa-envelope"></i></p>
+      </div>
+      <div class="footer-senter">
+      <a href="#">Airbnb Global Services Limited<br>
+                   観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a>
+       <p>c 2019 Airbnb, Inc. All rights reserved.</p>
+     </div>
+     <div class="footer-right">
+      <p>日本語</p>
+      <p>jpy-\</p>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+<!-- 左上menu部分 -->
+<!-- ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー -->
+<div class="menu1">
+ <div class="menu1-wrapper">
+  <div class="menu1-contents">
+    <a href="#">ホーム</a>
+  </div>
+  <div class="menu1-contents">
+   <ul>
+     <li><a href="#">友達を招待する</a></li>
+     <li><a href="#">Refer hosts</a></li>
+     <li><a href="#">Airbnbビジネスプログラム</a></li>
+   </ul>
+  </div>
+  <div class="menu1-contents">
+   <ul>
+     <li><a href="#">お部屋を掲載<span>月あたり最大\ 89,207の収益</span></a></li>
+     <li><a href="#">お家のホスティングについて</a></li>
+     <li><a href="#">体験をホストする<span>好きを仕事に</span></a></li>
+   </ul>
+  </div>
+  <div class="menu1-contents">
+   <ul>
+     <li><a href="#">ヘルプ</a></li>
+     <li><a href="#">登録する</a></li>
+     <li><a href="#">ログイン</a></li>
+   </ul>
+  </div>
+ </div>
+</div>
+<!-- ______________________________________________________________ -->
+<!-- 右上ログイン -->
+<div class="roguin">
+ <div class="roguin-wrapper">
+   <p class="batsu"><i class="fas fa-times"></i></p>
+   <div class="clear"></div>
+  <div class="position">
+   <div class="roguin-top">
+    <a href="#" class="roguin-block face">Fecebookでログイン</a>
+    <a href="#"class="roguin-block goo">googleでログイン</a>
+   </div>
+    <p>または</p>
+  </div>
+  <div class="roguin-input">
+    <input  type="text" placeholder="メールアドレス">
+    <input  type="text" placeholder="パスワード">
+  </div>
+     <div class="roguin-inline">
+       <P class="roguin-inline1">ログイン情報を保存</p>
+       <p class="roguin-inline2">パスワードを表示する</p>
+     </div>
+      <a href="#" class="roguin-roguin">ログイン</a>
+      <a href="#" class="forget">パスワードをお忘れですか?</a>
+    <p class="roguin-last">アカウントをお持ちではないですか?<span>登録</span></p>
+ </div>
+</div>
+
+<!-- --------------------------------------------------------------------->
+<!-- 右上登録する-->
+<div class="touroku">
+ <div class="touroku-wrapper">
+   <p class="batsu"><i class="fas fa-times"></i></p>
+   <div class="clear"></div>
+   <div class="position">
+   <div class="roguin-top">
+   <a href="#" class="roguin-block face">Fecebookでログイン</a>
+   <a href="#"class="roguin-block goo">googleでログイン</a>
+   </div>
+   <p>または</p>
+   </div>
+      <a href="#" class="roguin-roguin touroku-touroku">ログイン</a>
+      <p class="touroku-last">Airbnbアカウントはお持ちですか?<span>ログイン</span></p>
+ </div>
+</div>
+<!-- ---------------------------------------------------------------------> -->
+<div class="help">
+ <div class="help-wrapper">
+     <div class="help-top">
+       <h1>おすすめのヘルプ<span class="batsu2"><i class="fas fa-times"></i></span></h1>
+     </div>
+     <div class="help-serch">
+       <p><i class="fas fa-search"></i></p>
+       <input type="search" placeholder="例)　予約ステータス"></input>
+     </div>
+     <p>おすすめの記事</p>
+     <div class="help-contemts">
+       <p class="help-p1">アカウントを作成するにはどうすればよいですか？</p>
+       <p class="help-p2">Airbnbアカウントをまだお持ちでない方は、airbnb.jpで「利用登録」をクリックしてください。利用登録はメールアドレス、Facebookアカウント、Go…  </p>
+       <p class="help-p3">もっと読む</p>
+     </div>
+     <div class="help-contemts">
+       <p class="help-p1">パスワードを変更・再設定するには?</p>
+       <p class="help-p2">パスワードをリセットしたい パスワードを忘れてしまったときや、Airbnbアカウントにログインできないときには、www.airbnb.com/forgot_pa…</p>
+       <p class="help-p3">もっと読む</p>
+     </div>
+     <div class="help-contemts">
+       <p class="help-p1">誰かにAirbnbのサイト以外の場所で支払いを求められた場合の対処は？</p>
+       <p class="help-p2">送金するのはやめ、当社までご連絡ください。Airbnbが公式サイト以外の場所で、メール経由あるいは社外の予約サービス経由でお支払いを求めることは決してありません…</p>
+       <p class="help-p3">もっと読む</p>
+     </div>
+     <div class="help-contemts">
+       <p class="help-p1">なぜ支払いとやり取りはAirbnbを通して直接行う決まりなの?</p>
+       <p class="help-p2">Airbnbを通して支払いと連絡を行うことにより、当社のサービス利用規約、支払サービス利用規約、キャンセルポリシー、返金ポリシー、ホスト保証、ホスト補償保険プロ…</p>
+       <p class="help-p3">もっと読む</p>
+     </div>
+     <div class="help-contemts">
+       <p class="help-p1">Airbnbのキャンセルポリシーにはどんなものがある？</p>
+       <p class="help-p2">ホストとゲストの両方をお守りするキャンセルポリシーには、柔軟、普通、厳格の3タイプあり、ホストはそのいずれかを選択することができます。 28泊以上の予約にはすべ…</p>
+       <p class="help-p3">もっと読む</p>
+     </div>
+     <p>トピック別の記事を見る</p>
+     <ul>
+       <li class="help-list">
+         <h3 class="list-h3-1">予約リクエスト<span><i class="fas fa-angle-down"></i></span></h3>
+         <ul class="list list-click1">
+           <li><span>友達や家族に代わって予約をしてもよいですか？</span></li>
+           <li><span>予約前にお部屋の下見はできますか？</span></li>
+           <li><span>予約リクエストに対してホストはどのくらいで返答をくれますか？</span></li>
+           <li><span>予約リクエストはどうやって送るのですか？</span></li>
+           <li><span>予約リクエストが却下されたり期限切れになった場合どうなりますか？</span></li>
+           <li><span>宿泊料金はどのタイミングで課金されますか？</span></li>
+           <li><span>ホストから返事がありません。予約して大丈夫？</span></li>
+           <li><span>ゲストとして予約状況を確認するには？</span></li>
+         </ul>
+       </li>
+       <li class="help-list">
+         <h3 class="list-h3-2">ホストに連絡<span><i class="fas fa-angle-down"></i></span></h3>
+         <ul class="list list-click2">
+           <li><span>予約前にお部屋の下見はできますか？</span></li>
+           <li><span>メッセージの確認・送信方法は？</span></li>
+           <li><span>ホストからゲストに契約書に署名をお願いしてもよいですか？</span></li>
+           <li><span>Airbnbで宿泊予約する方法は？</span></li>
+           <li><span>ホストから返事がありません。予約して大丈夫？</span></li>
+           <li><span>スーパーホストとは何ですか？</span></li>
+           <li><span>予約前にホストに問い合わせる方法は?</span></li>
+           <li><span>予約の各ステータスの意味を教えてください。</span></li>
+         </ul>
+       </li>
+       <li class="help-list">
+         <h3 class="list-h3-3">料金＆手数料<span><i class="fas fa-angle-down"></i></span></h3>
+          <ul class="list list-click3">
+            <li><span>予約の料金はどのように決まりますか？</span></li>
+            <li><span>支払いはどの通貨でも大丈夫？</span></li>
+            <li><span>宿泊のチェックインに必要な情報はどこ？</span></li>
+            <li><span>長期滞在予約の支払い方法は？</span></li>
+            <li><span>宿泊料金はどのタイミングで課金されますか？</span></li>
+            <li><span>ホストに承認されなくても予約リクエストした段階で料金は発生するの？</span></li>
+            <li><span>Airbnbサービス料とは？</span></li>
+          </ul>
+       </li>
+     </ul>
+     <div class="help-fix">
+      <div class="help-fix-wrapper">
+       <a class="help-fix1" href="#">ヘルプセンターへ</a>
+       <a class="help-fix2" href="#">フィードバックを送る</a>
+      </div>
+     </div>
+  </div>
+ </div>
+ <!--------------------------------------------------------------------->
+
+
+
+ <!--------------------------------------------------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      $(function(){
+        $('.header-left p').click(function(){
+          if($('.menu1').hasClass('open')){
+            $('.menu1').removeClass('open')
+            $('.indicate').html('<p><i class="fas fa-angle-down"></i></p>');
+          }else{
+            $('.menu1').addClass('open')
+            $('.indicate').html('<p><i class="fas fa-angle-up"></i></p>');
+          };
+        });
+// -------------------------------------------------------------------
+         $('.header-roguin').click(function(){
+           $('.roguin').addClass('open');
+         });
+         $('.batsu').click(function(){
+           $('.roguin').removeClass('open');
+         });
+// ---------------------------------------------------------
+         $('.roguin-wrapper span').click(function(){
+           $('.touroku').addClass('open');
+           $('.roguin').removeClass('open');
+         });
+         $('.batsu').click(function(){
+           $('.touroku').removeClass('open');
+         });
+  // ___________________________________________________________________
+         $('.touroku-wrapper span').click(function(){
+           $('.roguin').addClass('open');
+           $('.touroku').removeClass('open');
+         });
+  // ___________________________________________________________________
+         $('.header-touroku').click(function(){
+           $('.touroku').addClass('open');
+         });
+  // ___________________________________________________________________
+  // ヘルプのクリック各種
+
+         $('.list-h3-1').click(function(){
+           if($('.list-click1').hasClass('open')){
+             $('.list-click1').removeClass('open');
+             $('.list-h3-1 span').html('<i class="fas fa-angle-down"></i>');
+           }else{
+             $('.list-click1').addClass('open');
+             $('.list-h3-1 span').html('<i class="fas fa-angle-up"></i>');
+           };
+         });
+         $('.list-h3-2').click(function(){
+           if($('.list-click2').hasClass('open')){
+             $('.list-click2').removeClass('open');
+             $('.list-h3-2 span').html('<i class="fas fa-angle-down"></i>');
+           }else{
+             $('.list-click2').addClass('open');
+             $('.list-h3-2 span').html('<i class="fas fa-angle-up"></i>');
+           };
+         });
+         $('.list-h3-3').click(function(){
+           if($('.list-click3').hasClass('open')){
+             $('.list-click3').removeClass('open');
+             $('.list-h3-3 span').html('<i class="fas fa-angle-down"></i>');
+           }else{
+             $('.list-click3').addClass('open');
+             $('.list-h3-3 span').html('<i class="fas fa-angle-up"></i>');
+           };
+         });
+
+         // $(document).click(function(e){
+         //   if(!$(e.target).closest('.header-help').length){
+         //     $('.help').removeClass('open');
+         //   }else{
+         //       $('.help').addClass('open');
+         //   }
+         // });
+         $('.header-help').click(function(){
+           $('.help').addClass('open');
+         });
+         $('.batsu2').click(function(){
+           $('.help').removeClass('open');
+         });
+  // ___________________________________________________________________
+
+  // 中身がリンクじゃない場合
+         // $('.list-wrapper ').click(function(){
+         //   var $findlist = $(this).find('.list');
+         //   var $findspan = $(this).find('h3 span');
+         //   if($findlist.hasClass('open')){
+         //      $findlist.removeClass('open');
+         //      $findspan.html('<span><i class="fas fa-angle-down"></i></span>')
+         //   }else{
+         //      $findlist.addClass('open');
+         //      $findspan.html('<span><i class="fas fa-angle-up"></i></span>')
+         //   };
+         // });
+// _____________________________________________
+// 左上ホストを始める
+          // $('.header-right-start li').click(function(){
+          //   if(!$(e.target).closest('.header-right-start').length){
+          //     $('.start').removeClass('open');
+          //   }else{
+          //     $('.start').toggleClass('open');
+          //   }
+          // });
+          $(document).click(function(e){
+            if(!$(e.target).closest('.header-right-start li').length){
+              $('.start').removeClass('open');
+            }else{
+                $('.start').addClass('open');
+            }
+          });
+         $('.header-right-start li').click(function(){
+             $('.start').toggleClass('open');
+         });
+
+      });
+    </script>
+
+
+ </body>
+</html>

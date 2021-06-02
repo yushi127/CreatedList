@@ -1,0 +1,51 @@
+@media screen and (max-width: 860px){
+.header-right a{
+  display:none;
+  color: red;
+}
+.serch{
+  width: 80%;
+}
+.header-left a,.header-left p{
+  padding:0 10px;
+  color: black;
+  font-size: 25px;
+}
+.indicate{
+  display: block;
+  padding-left: 0;
+}
+.senter-contents{
+  display: block;
+}
+.bottom{
+  display: none;
+}
+footer{
+  width:90%;
+  margin-top: 60px;
+}
+.footer-wrapper{
+  font-size: 14px;
+}
+.footer-senter{
+  line-height: 18px;
+}
+.footer-right{
+  display: block;
+  text-align: center;
+}
+.footer-right p{
+  border:1px solid  #20292938;
+  padding:5px 5px;
+}
+.envelope-big{
+  display:none;
+}
+.envelope{
+  display:block;
+}
+
+
+
+}

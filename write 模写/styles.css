@@ -1,0 +1,287 @@
+*{
+  box-sizing: border-box;
+  color:#666666;
+  margin: 0 auto;
+}
+body{
+  margin:  0 5px;
+}
+.max{
+  max-width: 1035px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.header-wrapper{
+  padding: 5% 0px;
+}
+.title h1{
+  color:#111;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  font-size: 36px;
+}
+.thime,.list,.search{
+  float: left;
+}
+.search p{
+  margin-left: 65px;
+}
+.thime{
+  margin-right: 65px;
+}
+/* --------------------------------------------------- */
+ul.ddmenu {
+    margin: 0px 65px;
+    padding: 0px 0px 0px 15px;
+  }
+  ul.ddmenu li {
+     width: 125px;           /* メニュー項目の横幅(125px) */
+     display: inline-block;  /* ★1:横並びに配置する */
+     list-style-type: none;  /* ★2:リストの先頭記号を消す */
+     position: relative;     /* ★3:サブメニュー表示の基準位置にする */
+  }
+  ul.ddmenu a {
+     color: ;#444444;              /* メニュー項目の文字色(白色) */
+     line-height: 40px;         /* メニュー項目のリンクの高さ(40px) */
+     text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
+     text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
+     font-weight:normal;        /* 太字にする */
+     display: block;            /* ★4:項目内全域をリンク可能にする */
+  }
+  ul.ddmenu a:hover {
+     color: #b4862c;            /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+  }
+
+
+  ul.ddmenu ul {
+     display: none;       /* ★1:標準では非表示にする */
+     margin: 0px;         /* ★2:サブメニュー外側の余白(ゼロ) */
+     padding: 0px;        /* ★3:サブメニュー内側の余白(ゼロ) */
+     position: absolute;  /* ★4:絶対配置にする */
+     background-color: #e6e6e6 ;
+  }
+
+  /* ---------------------------------- */
+  /* ▼サブメニューがある場合に開く処理 */   /* ※サブメニューが1階層しか存在しない場合の記述 */
+  /* ---------------------------------- */
+  ul.ddmenu li:hover ul {
+     display: block;      /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+  }
+ ul.ddmenu ul li {   /* ※A */
+    width: 200px;               /* サブメニュー1項目の横幅(135px) */
+    border: 1px solid #77777745; /* 項目上側の枠線(ピンク色で1pxの実線) */
+ }
+ ul.ddmenu ul li a {   /* ※B */
+    /* line-height: 35px;   /* サブメニュー1項目の高さ(35px) */ */
+    /* text-align: left;    /* 文字列の配置(左寄せ) */ */
+    /* padding-left: 5px;   /* 文字列前方の余白(5px) */ */
+    /* font-weight: normal; /* 太字にはしない */ */
+ }
+ ul.ddmenu ul li a:hover {   /* ※C */
+    color: #b4862c;       /* サブメニュー項目にマウスが載ったときの文字色(濃い緑色) */
+ }
+
+/* -------------------------------------------------------- */
+
+/* ----------------------------------------------------------------- */
+
+.search-form {
+    display: block;
+    position: relative;
+}
+.search-form:before, .search-field {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+.search-form:before {
+    z-index: 100;
+    line-height: 50px;
+    background: #65b1e4;
+    color: #FFF;
+    text-align: center;
+}
+.search-field {
+    -webkit-appearance: none;
+    /* border-radius: 0; */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    z-index: 200;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+.search-field:focus {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    width: 100%;
+    cursor: text;
+}
+.search-form input[type="submit"] {
+    display: none;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.top img{
+  width: 100%;
+  height: auto;
+}
+.top h2{
+  font-size: 27px;
+  margin:80px 0 100px 0;
+}
+.main-wrapper{
+  border-bottom: 1px solid;
+}
+.maincontents{
+  width:100%;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.day1{
+  float: left;
+  width: 32%;
+  font-size: 20px;
+}
+.main1{
+  float: right;
+  width: 68%;
+}
+.main1 a{
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.main1 p{
+  font-size: 20px;
+}
+.clear{
+  clear: both;
+}
+.bottom{
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.bottom1{
+  padding-right: 70px;
+}
+.bottom1 img{
+  border-radius: 50%;
+ width: 100px;
+ float: left;
+}
+.bottom-contents1{
+  float: left;
+  width: 30%;
+}
+.bottom-contents2{
+  float: left;
+  width: 23%;
+}
+.bottom-wrapper{
+  border-bottom: 1px solid;
+  padding: 70px 0 150px 0;
+  width: 100%;
+}
+.bottom1-top{
+  margin-bottom: 20px;
+}
+.bottom1right{
+  float: right;
+}
+.bottom1right p{
+  padding: 20px 40px 0px 0px;
+  letter-spacing: normal;
+}
+.bottom1right a{
+  padding: 5px 0;
+}
+.fotter-left{
+  float: left;
+}
+.fotter-right{
+  float: right;
+}
+.bottom2{
+  padding-right: 21px;
+}
+.bottom2 p{
+  padding-bottom: 30px;
+}
+.bottom3{
+  padding-right: 19px;
+}
+.bottom3-top{
+  padding-bottom: 30px;
+}
+.bottom3-1{
+  padding-bottom: 25px;
+}
+.bottom3 a{
+  text-decoration: underline;
+  color: #444444;
+}
+.bottom4 p{
+  padding-bottom: 30px;
+}
+.bottom4 a{
+  padding-bottom: 25px;
+  text-decoration: underline;
+  color: #444444;
+}
+
+/* ---------------------------------- */
+#form02{
+    background-color: white;
+    width:200px;
+    height: 45px;
+    border: 1px green solid;
+    margin-top: 170px;
+    margin-left: 20px;
+}
+#form02 input{
+    vertical-align: top;
+    margin: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 17px;
+}
+#input02{
+    border: none;
+    width: 200px;
+    padding-left: 10px;
+}
+/* #submit02{
+    width: 30px;
+    border: none;
+    background-image: url(画像へのパス);
+    background-position: center;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+} */
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+footer{
+  padding:60px 0 100px 0;
+}
+.fotter-right{
+  margin-right: 150px;
+}
+.fotter-left{
+  letter-spacing: 5px;
+  font-size: 20px;
+}

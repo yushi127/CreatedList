@@ -1,0 +1,30 @@
+.header-list{
+  position: relative;
+}
+ .header-hover1 p{
+  position: absolute;
+  margin-left: 340px;
+  border: 1px solid ;
+  padding:8px 25px;
+  display: none;
+
+}
+.hover .home:hover .header-hover1 p{
+  display: block;
+}
+.home:hover{
+
+}
+.header-list-left{
+  margin-right: 160px;
+}
+.header-list-right{
+  margin-left: 140px;
+  font-size: 24px;
+}
+.header-list a{
+  margin:0px 10px 20px 10px;
+}
+.header-list p,i,a{
+  display: inline-block;
+}
